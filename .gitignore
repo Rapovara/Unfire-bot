@@ -1,0 +1,68 @@
+# Arduino IDE
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Compiled binaries
+*.hex
+*.bin
+*.elf
+*.map
+
+# Arduino build output
+build/
+*.build/
+
+# IDE files
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+
+# OS generated files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Backup files
+*~
+*.orig
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Libraries (if using library manager)
+libraries/
+
+# Hardware specific
+*.fzz
+*.fzpz
+
+# Documentation build
+docs/_build/
+docs/build/
+
+# Python (if using automation scripts)
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Node.js (if using web interface)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
